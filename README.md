@@ -8,7 +8,7 @@ public class Message {
         MSISDN;
     }
 }
-```java
+```
 The DTO contains the message content and an enrichment type enrichmentType.
 MSISDN is enrichment based on a phone number. As a result of the enrichment, firstName and lastName are added to the enrichment field.
 MSISDN enrichment conditions
