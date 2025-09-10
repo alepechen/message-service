@@ -1,6 +1,6 @@
 Concept
 The user sends a DTO in the following format:
-
+```java
 public class Message {
     private String content;
     private EnrichmentType enrichmentType;
@@ -25,6 +25,7 @@ If one of the conditions is not met (message is not in JSON format, msisdn field
 
 Entry point
 The entry point to the application should be the EnrichmentService class with an enrich method.
+
 Implementation requirements
 
 The system should work correctly in a multi-threaded environment. It is assumed that the enrich method may be called concurrently from different threads.
